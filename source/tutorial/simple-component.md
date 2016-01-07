@@ -94,7 +94,7 @@ Let's call this action `imageShow`
 <p>Location: {{rental.city}}</p>
 <p>Number of bedrooms: {{rental.bedrooms}}</p>
 {{#if isImageShowing }}
-  <p><img src={{rental.image}} alt={{rental.type}} width="500px"></p>
+  <p><img src={{rental.image}} alt={{rental.type}} width="500"></p>
 {{else}}
   <button {{action "imageShow"}}>Show image</button>
 {{/if}}

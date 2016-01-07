@@ -127,7 +127,7 @@ In our template, let's add a button with an `imageHide` action:
 <p>Location: {{rental.city}}</p>
 <p>Number of bedrooms: {{rental.bedrooms}}</p>
 {{#if isImageShowing }}
-  <p><img src={{rental.image}} alt={{rental.type}} width="500px"></p>
+  <p><img src={{rental.image}} alt={{rental.type}} width="500"></p>
   <button {{action "imageHide"}}>Hide image</button>
 {{else}}
   <button {{action "imageShow"}}>Show image</button>
